@@ -9,9 +9,11 @@ function App() {
       <h1> Hello world </h1>
       <p className="exciting"> Min första riktiga React-app. </p>
       <p> Det kommer snabbt bli mer intressant. </p>
-      <button className="fancy">Jag är festlig</button>
+      <FancyButton />
     </main>
   );
 }
+
+const FancyButton = () => <button className="fancy">Jag är festlig</button>;
 
 export default App;
