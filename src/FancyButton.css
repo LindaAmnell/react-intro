@@ -1,12 +1,12 @@
-h1 {
-  color: darkblue;
-}
-main {
-  background-color: lightgray;
-}
 .fancy {
   padding: 0.5em 1em;
   background-color: pink;
   color: rgb(121, 121, 218);
   font-weight: bold;
+  margin: 0.5em;
+}
+
+.fancy:hover {
+  cursor: pointer;
+  color: black;
 }
